@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js " lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+    <title>:: Oreo Bootstrap4 Admin ::</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footable.standalone.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/footable.bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/color_skins.css' %}">
+    <!-- Custom Css -->
+
+</head>
+<body class="theme-purple">
+<div class="container-fluid">
+
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+
+                <div class="body table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                             <th>Ссылка</th>
+                            <th>Имя</th>
+                            <th>Номер телефона</th>
+                            <th>Дата</th>
+                            <th>Номер заказа</th>
+                            <th>Статус</th>
+                            <th>Удалить</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for order in orders %}
+                            <tr>
+                            <td><a href="{% url 'orderCart' order.cart_id %}">Корзина</a></td>
+                                <td>{{ order.costumer_name }}</td>
+                                <td>{{ order.costumer_phone }}</td>
+                                <td>{{ order.created }}</td>
+                                <td>{{ order.order_id }}</td>
+                                <td>
+                                    <ul class="nav nav-tabs">
+                                        {% if order.status == "Новая" %}
+                                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#home"
+                                                                aria-expanded="true">Новая</a></li>
+                                            {% else %}
+                                              <li class="nav-item"><a class="nav-link " data-toggle="tab" href="#home"
+                                                                aria-expanded="true">Новая</a></li>
+                                        {% endif %}
+
+                                     {% if order.status == "Отказ" %}
+                                         <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#profile"
+                                                                aria-expanded="false">Отказ</a></li>
+                                            {% else %}
+                                               <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#profile"
+                                                                aria-expanded="false">Отказ</a></li>
+                                        {% endif %}
+
+                                     {% if order.status == "Согласен" %}
+                                            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#messages">Согласен</a>
+                                            {% else %}
+                                              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#messages">Согласен</a>
+                                        {% endif %}
+                                        </li>
+                                    </ul>
+                                </td>
+                                 <td> <a href='{% url "del" order.cart_id %}'
+                                                                       class="btn btn-delete "><i
+                                                                            class="zmdi zmdi-shopping-cart"></i></a></td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+{% block extrahead %}
+    <!-- Jquery Core Js -->
+    <script type="text/javascript" src="{% static 'js/libscripts.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/vendorscripts.bundle.js' %}"></script>
+
+
+    <script type="text/javascript" src="{% static 'js/footable.bundle.js' %}"></script>
+
+
+    <script type="text/javascript" src="{% static 'js/mainscripts.bundle.js' %}"></script>
+
+
+    <script type="text/javascript" src="{% static 'js/footable.js' %}"></script>
+
+{% endblock extrahead %}
+</body>
+</html>

@@ -1,0 +1,20 @@
+  {% load static %}
+        <aside id="leftsidebar" class="sidebar">
+            <div class="tab-content">
+                <div class="tab-pane stretchRight active" id="dashboard">
+                    <div class="menu">
+                        <ul class="list">
+                            <li class="header">Категории:</li>
+
+                            {% for cat in category_list %}
+                            <li class="active open"><a href="{% url 'productss' cat.slug %}" class="menu-toggle"><i
+                                    class="zmdi zmdi-trending-flat zmdi-hc-5x"></i><span>{{ cat.name }}</span></a>
+                            </li>
+                {% endfor %}
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>

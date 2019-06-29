@@ -1,0 +1,43 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block content %}
+
+    <div class="card">
+        <div class="body">
+
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="body">
+                        <h2 class="number count-to m-t-0 m-b-5" data-from="0" data-to="501"
+                            data-speed="1000" data-fresh-interval="700">501</h2>
+                        <p class="text-muted">Orders Received</p>
+                        <span id="linecustom1"><canvas width="276" height="35"
+                                                       style="display: inline-block; width: 276.656px; height: 35px; vertical-align: top;"></canvas></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="body">
+                        <h2 class="number count-to m-t-0 m-b-5" data-from="0" data-to="2501"
+                            data-speed="2000" data-fresh-interval="700">2501</h2>
+                        <p class="text-muted ">Total Sales</p>
+                        <span id="linecustom2"><canvas width="276" height="35"
+                                                       style="display: inline-block; width: 276.656px; height: 35px; vertical-align: top;"></canvas></span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="body">
+                        <h2 class="number count-to m-t-0 m-b-5" data-from="0" data-to="6051"
+                            data-speed="2000" data-fresh-interval="700">6051</h2>
+                        <p class="text-muted">Total Profit</p>
+                        <span id="linecustom3"><canvas width="276" height="35"
+                                                       style="display: inline-block; width: 276.656px; height: 35px; vertical-align: top;"></canvas></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+{% endblock %}

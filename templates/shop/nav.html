@@ -1,0 +1,48 @@
+  {% load static %}
+
+<!-- Top Bar -->
+<nav class="navbar p-l-5 p-r-5">
+    <ul class="nav navbar-nav navbar-left">
+        <li>
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="index.html"><img src="{% static 'img/images/logo.svg' %}" width="30"
+                                                               alt="Oreo"><span class="m-l-10">Oreo</span></a>
+            </div>
+        </li>
+        <li><a href="javascript:void(0);" class="ls-toggle-btn"><i class="zmdi zmdi-swap"> </i>  Категории</a>
+        </li>
+        <li class="hidden-md-down"><a href="{% url 'products' %}" title="Events"><i class="zmdi zmdi-calendar"></i>  Доставка</a></li>
+        <li class="hidden-md-down"><a href="mail-inbox.html" title="Inbox"><i class="zmdi zmdi-email"></i></a></li>
+        <li><a href="contact.html" title="Contact List"><i class="zmdi zmdi-account-box-phone"></i> Контакты </a></li>
+        <li class="hidden-sm-down">
+               <form action="{% url 'search' %}?q=" method="get" role="search">
+            <div class="input-group">
+
+                <input type="text" class="form-control" name="q" placeholder="Поиск...">
+
+                <button type="submit" class="input-group-addon">
+                        <i class="zmdi zmdi-search"></i>
+                    </button>
+
+            </div>
+                   </form>
+
+        </li>
+        <li class="float-right">
+            <a href={%  url 'cart'%} class="mega-menu" data-close="true">
+
+                <i class="zmdi zmdi-shopping-cart"></i>  Корзина
+
+                {% if empty %}
+
+                    {% else %}
+                       <span class="badge badge-success">{{ request.session.items_total }}</span>
+            {% endif %}
+
+            </a>
+
+
+        </li>
+    </ul>
+</nav>

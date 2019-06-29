@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js " lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta name="description" content="Responsive Bootstrap 4 and web Application ui kit.">
+    <title>:: Oreo Bootstrap4 Admin ::</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/jvectormap/jquery-jvectormap-2.0.3.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/morris.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/color_skins.css' %}">
+    <!-- Custom Css -->
+   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/ecommerce.css' %}">
+    <link rel="stylesheet" href="{% static 'css/color_skins.css' %}">
+</head>
+<body class="theme-purple ls-toggle-menu">
+<!-- Page Loader -->
+{#<div class="page-loader-wrapper">#}
+{#    <div class="loader">#}
+{#        <div class="m-t-30"><img class="zmdi-hc-spin" src="assets/images/logo.svg" width="48" height="48" alt="Oreo"></div>#}
+{#        <p>Please wait...</p>#}
+{#    </div>#}
+{#</div>#}
+<!-- Overlay For Sidebars -->
+<div class="overlay"></div>
+<!-- Navbar -->
+{% include 'shop/nav.html' %}
+<!-- Main Content -->
+<section class="content home">
+    <!--Header-->
+    {% include 'shop/header.html' %}
+    <div class="container-fluid">
+        <!-- Left Sidebar -->
+        {% include 'shop/leftsidebar.html' %}
+        <!--Content -->
+        <div class="conta">
+            <div class="row clearfix">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    {% block content %}
+
+
+                    {% endblock %}
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% block extrahead %}
+    <!-- Jquery Core Js -->
+
+
+
+    <script type="text/javascript" src="{% static 'js/libscripts.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/vendorscripts.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/morrisscripts.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jvectormap.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/knob.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/mainscripts.bundle.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+       <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery-3.3.1.slim.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/plugins.js' %}"></script>
+{% endblock extrahead %}
+</body>
+</html>

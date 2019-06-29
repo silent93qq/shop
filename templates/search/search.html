@@ -1,0 +1,101 @@
+{% extends "base_generic.html" %}
+{% load static %}
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-lg-12">
+                <div class="card product_item_list">
+                    <div class="body table-responsive">
+
+
+                        <form action="{% url 'search' %}?q=" method="get" role="search">
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" name="q" value="{{ q }}"
+                                       placeholder="Search...">
+
+                                <button type="submit" class="input-group-addon"><i class="zmdi zmdi-search"></i>
+                                </button>
+
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+
+            {% for item in  page_object.object_list %}
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="card product_item">
+                        <div class="body">
+                            <div class="cp_img">
+                                <a href="{% url 'product' item.product.slug %}"> <img src="{{ item.image.url }}"
+                                                                                      alt="Product"
+                                                                                      class="img-fluid"></a>
+                                <div class="hover">
+                                    <a href="javascript:void(0);" class="btn btn-primary waves-effect"><i
+                                            class="zmdi zmdi-plus"></i></a>
+                                    <a href="javascript:void(0);" class="btn btn-primary waves-effect"><i
+                                            class="zmdi zmdi-shopping-cart"></i></a>
+                                </div>
+                            </div>
+                            <div class="product_details">
+                                <h5><a href="{% url 'product' item.product.slug %}"> {{ item.product.name }}</a></h5>
+                                <ul class="product_price list-unstyled">
+                                    {% if item.product.discount == 1 %}
+                                        <li class="old_price">
+                                            <del>{{ item.product.price }} р.</del>
+                                        </li>
+                                        <li class="new_price">{{ item.product.priceDis }} р.</li>
+                                    {% else %}
+                                        <li class="old_price">{{ item.product.price }} р.</li>
+                                    {% endif %}
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            {% endfor %}
+
+        </div>
+        <div class="card">
+            <div class="body">
+                <ul class="pagination pagination-primary m-b-0">
+
+                    <li class="page-item {% if not prev_url %} disabled {% endif %}">
+                        <a class="page-link" href="{{ prev_url }}"><i class="zmdi zmdi-arrow-left"></i></a></li>
+
+                    {% for n in page_object.paginator.page_range %}
+
+                        {% if page_object.number == n %}
+                            <li class="page-item active"><a class="page-link" href="?q={{ q }}&page={{ n }}">{{ n }}</a>
+                            </li>
+                        {% elif n > page_object.number|add:-3 and n < page_object.number|add:3 %}
+                            <li class="page-item"><a class="page-link" href="?q={{ q }}&page={{ n }}">{{ n }}</a></li>
+                        {% endif %}
+
+                    {% endfor %}
+
+                    <li class="page-item {% if not next_url %} disabled {% endif %}">
+                        <a class="page-link" href="{{ next_url }}"><i class="zmdi zmdi-arrow-right"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}
+
+
+
+
+
+
+

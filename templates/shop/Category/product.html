@@ -1,0 +1,84 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="body">
+                        <div class="row">
+                            <div class="preview col-lg-4 col-md-12">
+
+                                {% for it in productq %}
+                                    {% if  it.is_main == True %}
+                                        <div class="pro-large-img mb-10 fix easyzoom easyzoom--overlay easyzoom--with-thumbnails">
+                                            <a href="{{ it.image.url }}">
+                                                <img src="{{ it.image.url }}" alt=""/>
+                                            </a>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                                <ul id="pro-thumb-img" class="pro-thumb-img">
+
+                                    {% for it in productq %}
+                                        {#                                      {% if  it.is_main != True %}#}
+                                        <li><a href="{{ it.image.url }}" data-standard="{{ it.image.url }}"><img
+                                                src="{{ it.image.url }}" alt=""/></a></li>
+                                        {#                                                {% endif %}#}
+                                    {% endfor %}
+                                </ul>
+
+                            </div>
+
+
+                            <div class="details col-lg-8 col-md-12">
+                                <h3 class="product-title m-b-0">{{ product.name }}</h3>
+                                <h4 class="price m-t-0">Цена: <span class="col-amber">{{ product.price }} р.</span></h4>
+                                <hr>
+
+                                <span class="col-brown"><h5 class="s">
+                                    В наличии
+                                </h5></span>
+
+                                <h5 class="colors">Цвет:
+                                    {#                                    <form class="form pull-right" method="get"#}
+                                    {#                                          action="{% url "update_to_cart" product.slug %}">#}
+                                    {#                                        <input name="order_id" value="pppppppppppppppp" type="text">#}
+                                    {#                                        <input name="attr" type="text">#}
+                                    {#                                        <input type="submit" value="add">#}
+                                    {##}
+                                    {#                                    </form>#}
+                                    <span class="color bg-amber no t-available" title="Not In store"></span>
+                                    <span class="color bg-green"></span>
+                                    <span class="color bg-blue"></span>
+                                </h5>
+                                <hr>
+                                <div class="action">
+
+                                    <a href="{% url 'update_to_cart' product.slug %}"
+                                       class="btn btn-primary btn-round waves-effect">Добавить в корзину</a>
+
+
+                                    <button class="btn btn-primary btn-icon btn-icon-mini btn-round waves-effect"
+                                            type="button"><span class="zmdi zmdi-favorite"></span></button>
+                                </div>
+                                <br>
+                                <span class="col-brown"><h5 class="s">
+                                    Описание:
+                                </h5></span>
+                                <p class="product-description">{{ product.text|safe|escape }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+{% endblock %}
