@@ -1,8 +1,9 @@
 from django.db import models
 from django.db.models.signals import pre_save
-from shop.utils import unique_slug_generator
 from django.urls import reverse
 from tinymce.models import HTMLField
+
+from shop.utils import unique_slug_generator
 
 
 def slug_generator(sender, instance, *args, **kwargs):
@@ -27,18 +28,10 @@ pre_save.connect(slug_generator, sender=ProductCategory)
 
 
 class Product(models.Model):
-    DISCOUNT_CHOICES = (
-        (0, 'Нет'),
-        (1, 'Да')
-    )
-
     name = models.CharField(verbose_name="Название", max_length=100, default='')
-    discount = models.IntegerField(verbose_name="Скидка", choices=DISCOUNT_CHOICES)
-    price = models.IntegerField(verbose_name='Цена', null=True)
-    priceDis = models.IntegerField(verbose_name="Новая Цена", null=True)
     is_active = models.BooleanField(default=True)
-    text = HTMLField(verbose_name="Описание", max_length=100000, default='')
-
+    info = HTMLField(verbose_name="Описание", max_length=100000, default='')
+    character = HTMLField(verbose_name="Характеристики", max_length=100000, default='')
     slug = models.SlugField(max_length=100, null=True, blank=True)
     category = models.ForeignKey(ProductCategory, blank=True, null=True, default=None, on_delete=models.CASCADE, )
     created = models.DateTimeField(auto_now_add=True, auto_now=False, null=True)
@@ -59,9 +52,24 @@ class Product(models.Model):
 pre_save.connect(slug_generator, sender=Product)
 
 
+class ProductInfo(models.Model):
+
+    product = models.ForeignKey(Product, null=True, blank=True, default=None, on_delete=models.CASCADE, )
+    color = models.CharField(verbose_name="Цвет", max_length=100, default='')
+    price = models.CharField(verbose_name="Цена", max_length=100, default='')
+    priceDis = models.CharField(verbose_name="Новая цена", max_length=100, default='')
+    created = models.DateTimeField(auto_now_add=True, auto_now=False, null=True)
+    updated = models.DateTimeField(auto_now_add=False, auto_now=True)
+
+    class Meta:
+        verbose_name = "Информация"
+        verbose_name_plural = "Информация"
+        ordering = ['-created']
+
+
 class ProductImage(models.Model):
     product = models.ForeignKey(Product, null=True, blank=True, default=None, on_delete=models.CASCADE, )
-    image = models.ImageField(verbose_name='Картинка', null=True, blank=True, upload_to="media/")
+    image = models.ImageField(verbose_name='Картинка', null=True, blank=True, upload_to="media/",max_length=10000,)
     is_active = models.BooleanField(default=True)
     is_main = models.BooleanField(default=False)
     created = models.DateTimeField(auto_now_add=True, auto_now=False, null=True)

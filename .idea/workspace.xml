@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7bcebdc-888a-41a6-a5d3-110fc9c7844d" name="Default" comment="" />
+    <list default="true" id="e7bcebdc-888a-41a6-a5d3-110fc9c7844d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5b53a879-c365-4a2f-b2f2-f5f36ca9f139.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5b53a879-c365-4a2f-b2f2-f5f36ca9f139.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5b53a879-c365-4a2f-b2f2-f5f36ca9f139/storage_v2/_src_/database/HA.-QgAAA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5b53a879-c365-4a2f-b2f2-f5f36ca9f139/storage_v2/_src_/database/HA.-QgAAA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/migrations/0002_auto_20190509_1556.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/migrations/0003_auto_20190509_1609.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/migrations/0004_cartitem_line_total.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/migrations/0005_cart_order_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jo.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/12_JHahBgw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/14_uDHQWcH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15_4pDhgE7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15_Ovuv7hq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15_WgEOcWZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15_m3WWoMX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15_sGqE8ZP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/15_tRnaBha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/1_rwX12X5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/1_tYB6rqK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/2_5yStmkM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/3_Eo94Q1q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/4_j3PMeCm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/5_CAyPtGa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/5_XdOfNje.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/5_Y8D1R8N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/7_GeSXZaX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/7_aHTo572.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/7_ckWFB62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/8_DW8py9z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/8_jtYRi99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/migrations/0002_auto_20190512_2349.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/migrations/0003_delete_productinorder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-bezhevyi-06/a51d93862b343d1b943689791af229fe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0002_auto_20190508_2110.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0003_auto_20190512_2141.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0004_auto_20190512_2155.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/0005_auto_20190512_2200.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +137,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="148" column="78" selection-start-line="148" selection-start-column="78" selection-end-line="148" selection-end-column="78" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#217#273#0" />
               </folding>
             </state>
           </provider>
@@ -98,11 +160,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>products</find>
-      <find>product</find>
-      <find>items</find>
-      <find>Item</find>
-      <find>CartItems</find>
       <find>CartItem</find>
       <find>rev</find>
       <find>image</find>
@@ -128,6 +185,11 @@
       <find>vote</find>
       <find>ENGINE</find>
       <find>ajax</find>
+      <find>url</find>
+      <find>DJANGO</find>
+      <find>pic</find>
+      <find>urls</find>
+      <find>urls_lin</find>
     </findStrings>
     <replaceStrings>
       <replace>ItemImag</replace>
@@ -143,10 +205,15 @@
       <replace>item</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/parse.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/carts/urls.py" />
         <option value="$PROJECT_DIR$/shop/context_processors.py" />
         <option value="$PROJECT_DIR$/venv/Lib/site-packages/cart/views.py" />
         <option value="$PROJECT_DIR$/templates/shop/leftsidebar.html" />
@@ -157,8 +224,6 @@
         <option value="$PROJECT_DIR$/templates/shop/Category/products.html" />
         <option value="$PROJECT_DIR$/templates/search/search.html" />
         <option value="$PROJECT_DIR$/jo/urls.py" />
-        <option value="$PROJECT_DIR$/shop/admin.py" />
-        <option value="$PROJECT_DIR$/shop/models.py" />
         <option value="$PROJECT_DIR$/orders/models.py" />
         <option value="$PROJECT_DIR$/orders/admin.py" />
         <option value="$PROJECT_DIR$/shop/views.py" />
@@ -191,11 +256,14 @@
         <option value="$PROJECT_DIR$/shop/static/js/plugins.js" />
         <option value="$PROJECT_DIR$/shop/static/css/main.css" />
         <option value="$PROJECT_DIR$/templates/shop/Category/product.html" />
-        <option value="$PROJECT_DIR$/jo/settings.py" />
         <option value="$PROJECT_DIR$/scrapy_parse.py" />
         <option value="$PROJECT_DIR$/parse/scrapy.cfg" />
         <option value="$PROJECT_DIR$/parse/parse/spiders/spiders.py" />
         <option value="$PROJECT_DIR$/faker_bd.py" />
+        <option value="$PROJECT_DIR$/shop/admin.py" />
+        <option value="$PROJECT_DIR$/jo/settings.py" />
+        <option value="$PROJECT_DIR$/shop/models.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/parse.py" />
       </list>
     </option>
@@ -206,11 +274,13 @@
     <option name="width" value="741" />
     <option name="height" value="662" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,54 +291,54 @@
             <path>
               <item name="jo" type="b2602c69:ProjectViewProjectNode" />
               <item name="jo" type="462c0819:PsiDirectoryNode" />
-              <item name="pic" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jo" type="b2602c69:ProjectViewProjectNode" />
               <item name="jo" type="462c0819:PsiDirectoryNode" />
-              <item name="pic" type="462c0819:PsiDirectoryNode" />
-              <item name="kolyaska-universalnaya-2-v-1-riko-basic-bella" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="modulnye-kolyaski-2-v-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jo" type="b2602c69:ProjectViewProjectNode" />
               <item name="jo" type="462c0819:PsiDirectoryNode" />
-              <item name="pic" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="modulnye-kolyaski-2-v-1" type="462c0819:PsiDirectoryNode" />
               <item name="kolyaska-universalnaya-2-v-1-riko-basic-bella" type="462c0819:PsiDirectoryNode" />
-              <item name="Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-bezhevyi-06" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vk_service" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="D:\site\jo" />
-      <recent name="D:\site\jo\shop\static\js" />
-      <recent name="D:\site\jo\shop\static\css" />
-      <recent name="D:\site\jo\shop\static\css\jqtable" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\site\jo\templates\shop\Category" />
       <recent name="D:\site\jo\templates\shop" />
       <recent name="D:\site\jo" />
       <recent name="D:\site\jo\shop\static\css\jqtable" />
       <recent name="D:\site\jo\shop\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="D:\site\jo" />
+      <recent name="D:\site\jo\shop\static\js" />
+      <recent name="D:\site\jo\shop\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -283,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.jo">
+  <component name="RunManager" selected="Python.parse">
     <configuration name="name" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -298,6 +368,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/name.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,9 +448,11 @@
       <item itemvalue="Django server.jo" />
       <item itemvalue="Python.name" />
       <item itemvalue="Python.s" />
+      <item itemvalue="Python.parse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parse" />
         <item itemvalue="Python.name" />
         <item itemvalue="Python.s" />
       </list>
@@ -379,12 +473,24 @@
       <workItem from="1560592270275" duration="9144000" />
       <workItem from="1561744283504" duration="2000" />
       <workItem from="1561746405637" duration="6420000" />
-      <workItem from="1561799457041" duration="16700000" />
+      <workItem from="1561799457041" duration="18718000" />
+      <workItem from="1561890913501" duration="985000" />
+      <workItem from="1561901783846" duration="6500000" />
+      <workItem from="1562005610332" duration="7618000" />
+      <workItem from="1562090443980" duration="1909000" />
+      <workItem from="1562173631143" duration="6609000" />
+      <workItem from="1562261367904" duration="1152000" />
+      <workItem from="1562440024752" duration="7998000" />
+      <workItem from="1562485223912" duration="3253000" />
+      <workItem from="1562509992406" duration="8567000" />
+      <workItem from="1562699400358" duration="3861000" />
+      <workItem from="1562779165846" duration="6739000" />
+      <workItem from="1562787424184" duration="263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40952000" />
+    <option name="totallyTimeSpent" value="98424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,277 +504,236 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15881884" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44293696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32724252" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32724252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32666665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5030211" side_tool="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49924472" weight="0.32724252" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49697885" visible="true" weight="0.2757475" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49697885" visible="true" weight="0.32833335" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.49924472" weight="0.32852563" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.32724252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32881084" />
-      <window_info anchor="right" id="Database" order="4" weight="0.22505985" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32801276" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24102154" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24848942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32852563" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32724252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32666665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5030211" side_tool="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49924472" weight="0.32840723" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49697885" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49924472" weight="0.32724252" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49697885" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="12" sideWeight="0.49924472" weight="0.32852563" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.32840723" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32724252" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32930514" />
-      <window_info anchor="right" id="Database" order="4" weight="0.12764351" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32801276" />
+      <window_info anchor="right" id="Database" order="4" weight="0.24102154" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jo$parse.coverage" NAME="parse Coverage Results" MODIFIED="1562012308898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop/static/js/slick.min.js" />
-    <entry file="file://$PROJECT_DIR$/shop/static/js/car.js" />
-    <entry file="file://$PROJECT_DIR$/shop/static/css/bootstrap/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/im.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-seryi-korallovyi-09/c579ae50b7a5fc221b4f5f9d1513c5e3.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-seryi-grafit-01/27cce89336c4b9aa126e2119e5d09ba4.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-korichnevyi-bezhevyi-07/8d56294058313312cda6425f6281198e.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-korichnevyi-bezhevyi-07/745df1db0df80d005f5657a481cb2954.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-bezhevyi-06/bbcd7f084d3abe4c2a0f57c18566bd42.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-korichnevyi-bezhevyi-07/e387251e76407e741f0c9261686ca64c.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-korichnevyi-bezhevyi-07/7d91f9e6fd8fabba719267b5b3928a3a.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-bella/Koliaska-universalnaia-Riko-Basic-Bella-2-v-1-bezhevyi-06/a51d93862b343d1b943689791af229fe.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-korichnevyi-12/84103faf2962f19d416983331e403493.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-biriuza-belyi-15/c2dbebcaf07298882b09ab5e777f7966.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/547b4d00c20bca84ff4810d6f12306bf.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/597a270a195f979b0bc921df5ced31a3.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/4647375d421e76aa380d41b8b0af20ad.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/bc0b79f4d686f8255de5aea7296a1574.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/ce1e158dcdc6b9c556f7963f21b20903.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/e0fc6f9b3a47ec632100f059d02bd064.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/e4ae6a303f57084a6f2274868b3c005b.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/fb20e99a3b6c2e0479ca203e2d4e4781.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/6b1a2a485aa9d8bf14ea949774ac7150.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-3-v-1-riko-bruno-ecco/Koliaska-universalnaia-Riko-Bruno-Ecco-3-v-1-bezhevyi-14/2bb4459d507e9183665ed183575daf21.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-bezhevyi-korichnevyi-10/fefc8e79306b2f7275b49d02816b4bc3.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-bezhevyi-korichnevyi-10/f6012f9668bce9db94ce843ee910f932.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-bezhevyi-korichnevyi-10/cb4500803f4c4c79426fddf039a02a78.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-bezhevyi-korichnevyi-10/3f570a47b9a9191e043b873169e0ebd7.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-bezhevyi-korichnevyi-10/3138c1ada210fe2a6eaf040e6d510cd5.jpg" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-bezhevyi-korichnevyi-10/f6012f9668bce9db94ce843ee910f932.jpg(main)" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-biriuza-belyi-02/01da434305f6a301113f180644c13aa8.jpg(main)" />
+    <entry file="file://$PROJECT_DIR$/pic/kolyaska-universalnaya-2-v-1-riko-basic-aicon/Koliaska-universalnaia-Riko-Basic-Aicon-2-v-1-grafit-bezhevyi-09/431701859a6b543e01b666a49a0c7bd0.jpg(main)" />
+    <entry file="file://$PROJECT_DIR$/media/1.png" />
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="307">
+          <caret line="581" column="8" selection-start-line="581" selection-start-column="8" selection-end-line="581" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1251" column="62" selection-start-line="1251" selection-start-column="54" selection-end-line="1251" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/css/owl.carousel.min.css" />
-    <entry file="file://$PROJECT_DIR$/shop/static/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/js/owl.carousel.min.js" />
-    <entry file="file://$PROJECT_DIR$/shop/static/css/plugins.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/js/modernizr-2.8.3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="456" selection-start-line="456" selection-end-line="456" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop/Category/product/product-zoom-1.jpg" />
-    <entry file="file://$PROJECT_DIR$/shop/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21922" column="17" selection-start-line="21922" selection-start-column="17" selection-end-line="21922" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/js/plugins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="765" column="91" selection-start-line="765" selection-start-column="76" selection-end-line="765" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base_generic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop/Category/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="48" column="80" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/name.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d9b77494-d35b-4ae2-8411-bceefe1bcd23/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy_parse.py" />
-    <entry file="file://$PROJECT_DIR$/jo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/04ad893a-631b-4135-8a54-39f97121f094/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse/parse/settings.py" />
-    <entry file="file://$PROJECT_DIR$/parse/parse/items.py" />
-    <entry file="file://$PROJECT_DIR$/parse/parse/pipelines.py" />
-    <entry file="file://$PROJECT_DIR$/parse/parse/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/parse/parse/spiders/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/parse/parse/middlewares.py" />
-    <entry file="file://$PROJECT_DIR$/parse/parse/spiders/spiders.py" />
-    <entry file="file://$PROJECT_DIR$/parse/scrapy.cfg" />
-    <entry file="file:///usr/lib/python3.6/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1194">
-          <caret line="728" selection-start-line="728" selection-end-line="728" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pic1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_productcategory">
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/orders_order">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="95141e38-059e-4dba-950d-44530cbf9720">
+        <state projectRestartId="775fbd8b-4ed8-4148-a6a5-345e5ac65e9a">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faker_bd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/cart_cartitem">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="775fbd8b-4ed8-4148-a6a5-345e5ac65e9a">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/cart_cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="775fbd8b-4ed8-4148-a6a5-345e5ac65e9a">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/migrations/0002_auto_20190509_1556.py" />
+    <entry file="file://$PROJECT_DIR$/shop/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/django_migrations">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="aab674f3-63c4-41e3-8d9b-efd74eee76bc">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="15">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/images/image2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/images/image4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/images/xs/avatar1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/images/xs/avatar2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/images/image-gallery/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/static/img/logo1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_product">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="95141e38-059e-4dba-950d-44530cbf9720">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/auth_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="95141e38-059e-4dba-950d-44530cbf9720">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pic/a51d93862b343d1b943689791af229fe.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_productimage">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="95141e38-059e-4dba-950d-44530cbf9720">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jo/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/utils.py">
+    <entry file="file://$PROJECT_DIR$/jo/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-1223">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shop/Category/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faker_bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="1020">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_product">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d5c25a49-46ed-4716-b457-fd19af7c7059">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_productcategory">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d5c25a49-46ed-4716-b457-fd19af7c7059">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_productinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d5c25a49-46ed-4716-b457-fd19af7c7059">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/modulnye-kolyaski-2-v-1/kolyaska-universalnaya-2-v-1-rant-links/Koliaska-Rant-Links-2-v-1-Malachite/105916eb86070c55608dfd9e6036218b.jpg" />
+    <entry file="das://5b53a879-c365-4a2f-b2f2-f5f36ca9f139/database/HA/schema/public/table/shop_productimage">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="6d571e91-7c4f-401b-9c68-c748e0f4c7d6">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parse.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="264">
+          <caret line="148" column="78" selection-start-line="148" selection-start-column="78" selection-end-line="148" selection-end-column="78" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#217#273#0" />
           </folding>
         </state>
       </provider>
